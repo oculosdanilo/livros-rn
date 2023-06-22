@@ -7,7 +7,9 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
     paddingVertical: "30px",
-    paddingLeft: "20px"
+    paddingLeft: "20px",
+    borderBottomWidth: "2px",
+    borderBottomColor: "#EDEDED"
   },
   textHeader: {
     fontSize: 30,
