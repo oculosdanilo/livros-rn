@@ -2,15 +2,16 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   viewHeader: {
+    borderColor: "black",
+    borderWidth: 3,
+    width: "100%",
     flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    marginTop: 8,
-    marginLeft: 10,
+    justifyContent: "flex-start",
+    alignItems: "flex-start",
   },
   textHeader: {
     fontSize: 25,
-    color: "white",
+    color: "black",
     fontWeight: "bold",
     marginRight: 50,
   },

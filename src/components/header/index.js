@@ -7,14 +7,8 @@ export default function Header() {
   return (
     <View style={styles.viewHeader}>
       <TouchableOpacity>
-        <Feather
-          style={{ marginLeft: -72 }}
-          name="menu"
-          size={36}
-          color="white"
-        />
+        <Text style={styles.textHeader}> Livros </Text>
       </TouchableOpacity>
-      <Text style={styles.textHeader}> TEC FILMES </Text>
     </View>
   );
 }
