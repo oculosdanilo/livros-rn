@@ -1,21 +1,21 @@
-import { StyleSheet, View } from "react-native";
-import Header from "./src/components/header/index";
-import { SafeAreaProvider } from "react-native-safe-area-context";
+import * as React from 'react';
+import { NavigationContainer } from "react-native-screens";
+import {createNativeStackNavigator} from 'react-native-screens/native-stack';
+import TelaDesc from "./src/telas/desc";
+import TelaHome from "./src/telas/home";
+
+const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
-    <SafeAreaProvider>
-      <View style={styles.container}>
-        <Header></Header>
-      </View>
-    </SafeAreaProvider>
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen
+          name="Home"
+          component={TelaHome}
+        />
+        <Stack.Screen name="Descrição" component={TelaDesc} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-  },
-});
