@@ -1,5 +1,6 @@
 const DATA = [
-    {
+    
+    [{
         id: "01",
         nome: "Coraline",
         descricao: "Certas portas não devem ser abertas. E Coraline descobre isso pouco tempo depois de chegar com os pais à sua nova casa, um apartamento em um casarão antigo ocupado por vizinhos excêntricos e envolto por uma névoa insistente, um mundo de estranhezas e magia, o tipo de universo que apenas Neil Gaiman pode criar. Ao abrir uma porta misteriosa na sala de casa, a menina se depara com um lugar macabro e fascinante. Ali, naquele outro mundo, seus outros pais são criaturas muito pálidas, com botões negros no lugar dos olhos, sempre dispostos a lhe dar atenção, fazer suas comidas preferidas e mostrar os brinquedos mais divertidos. Coraline enfim se sente... em casa. Mas essa sensação logo desaparece, quando ela descobre que o lugar guarda mistérios e perigos, e a menina se dá conta de que voltar para sua verdadeira casa vai ser muito mais difícil ― e assustador ― do que imaginava.",
@@ -8,9 +9,7 @@ const DATA = [
         Paginas: "224",
         Avaliacao: "4,9",
         imagem: require("../Img/coraline.png"),
-    },
-
-    {
+    }, {
         id: "02",
         nome: "O Diário de Anne Frank ",
         descricao: "É a história real de uma garota judia de 13 anos que ficou escondida com a família durante a ocupação nazista da Holanda. O nome dela era Annelies Marie Frank, nasceu em 12 de junho de 1929 em Frankfurt, na Alemanha, e morreu em um campo de concentração, pouco antes do fim da Segunda Guerra Mundial, em 1945. Foi escondida, no último andar de um prédio, que Anne Frank escreveu durante mais de dois anos um dos registros mais detalhados do dia a dia daquela fase em que os nazistas, liderados por Hitler, espalharam o horror entre seus perseguidos.",
@@ -19,9 +18,9 @@ const DATA = [
         Paginas: "352",
         Avaliacao: "4,8",
         imagem: require("../Img/anne.png"),
-    },
+    }],
 
-    {
+    [{
         id: "03",
         nome: "O Retrato de Dorian Gray",
         descricao: "O retrato de Dorian Gray (1891) é um anúncio do século XX e da modernidade, pelo qual Oscar Wilde pagou um preço caro ― além de sofrer censura, viu sua obra-prima usada como “prova” contra si no processo de “flagrante indecência” que o levou à prisão. Nesta edição, Nicholas Frankel, organizador e autor das introduções e das notas, reconstitui o romance a partir do original datilografado ― ou seja, eliminando toda a censura que o livro sofreu até que chegasse ao público, e constrói pela primeira vez a versão que Wilde gostaria que estivéssemos lendo hoje. Essa espécie de mito de Fausto tornou-se um clássico da literatura mundial pelo refinamento da escrita e pela universalidade do tema. Com uma destreza de estilo ímpar, Wilde cria frases lapidares com um humor ácido e um olhar astuto, criticando ferrenhamente a hipocrisia de uma sociedade que passava por transformações muito rápidas.",
@@ -41,9 +40,9 @@ const DATA = [
         Paginas: "192",
         Avaliacao: "4,6",
         imagem: require("../Img/breve.png"),
-    },
+    }],
 
-    {
+    [{
         id: "05",
         nome: "Crime e Castigo",
         descricao: "Publicado em 1866, Crime e castigo é a obra mais célebre de Fiódor Dostoiévski. Neste livro, Raskólnikov, um jovem estudante, pobre e desesperado, perambula pelas ruas de São Petersburgo até cometer um crime que tentará justificar por uma teoria: grandes homens, como César ou Napoleão, foram assassinos absolvidos pela História. Este ato desencadeia uma narrativa labiríntica que arrasta o leitor por becos, tabernas e pequenos cômodos, povoados de personagens que lutam para preservar sua dignidade contra as várias formas da tirania. Esta é a primeira tradução direta da obra lançada no Brasil, e recebeu em 2002 o Prêmio Paulo Rónai de Tradução da Fundação Biblioteca Nacional.",
@@ -63,9 +62,9 @@ const DATA = [
         Paginas: "96",
         Avaliacao: "5,0",
         imagem: require("../Img/dez.png"),
-    },
+    }],
 
-    {
+    [{
         id: "07",
         nome: "Céu sem Estrelas",
         descricao: "Cecília acabou de completar dezoito anos, mas sua vida está longe de entrar nos trilhos. Depois de perder seu primeiro emprego e de ter uma briga terrível com a mãe, a garota decide IR passar uns tempos na casa da melhor amiga, Iasmin. Lá, se aproxima de Bernardo, o irmão mais velho de Iasmin, e logo os dois começam um relacionamento. Apesar de estar encantado por Cecília, Bernardo esconde seus próprios traumas e ressentimentos, e terá de descobrir se finalmente está pronto para se comprometer. Cecília, por sua vez, precisará lidar com uma série de inseguranças em relação ao corpo — e com a instabilidade de sua própria mente. “Uma história brilhante sobre encontrar a sua força mesmo quando não há esperanças. Iris escreve com uma sensibilidade incrível e dá voz aos jovens que vivem a busca constante pelo seu lugar no mundo.” – Vitor Martins, autor de Quinze dias.",
@@ -85,9 +84,9 @@ const DATA = [
         Paginas: "284",
         Avaliacao: "5,0",
         imagem: require("../Img/filha.png"),
-    },
+    }],
 
-    {
+    [{
         id: "09",
         nome: "O Iluminado",
         descricao: "O romance, magistralmente levado ao cinema por Stanley Kubrick, continua apaixonando (e aterrorizando) novas gerações de leitores. A luta assustadora entre dois mundos. Um menino e o desejo assassino de poderosas forças malignas. Uma família refém do mal. Nesta guerra sem testemunhas, vencerá o mais forte. Danny Torrance não é um menino comum. É capaz de ouvir pensamentos e transportar-se no tempo. Danny é iluminado. Será uma maldição ou uma bênção? A resposta pode estar guardada na imponência assustadora do hotel Overlook. Em O iluminado, quando Jack Torrance consegue o emprego de zelador no velho hotel, todos os problemas da família parecem estar solucionados. Não mais o desemprego e as noites de bebedeiras. Não mais o sofrimento da esposa, Wendy. Tranquilidade e ar puro para o pequeno Danny livrar-se das convulsões que assustam a família. Só que o Overlook não é um hotel comum. O tempo esqueceu-se de enterrar velhos ódios e de cicatrizar antigas feridas, e espíritos malignos ainda residem nos corredores. O hotel é uma chaga aberta de ressentimento e desejo de vingança. É uma sentença de morte. E somente os poderes de Danny podem fazer frente à disseminação do mal.",
@@ -107,9 +106,9 @@ const DATA = [
         Paginas: "176",
         Avaliacao: "4,6",
         imagem: require("../Img/isolda.png"),
-    },
+    }],
 
-    {
+    [{
         id: "11",
         nome: "O Pequeno Príncipe",
         descricao: "Nesta história que marcou gerações de leitores em todo o mundo, um piloto cai com seu avião no deserto do Saara e encontra um pequeno príncipe, que o leva a uma aventura filosófica e poética através de planetas que encerram a solidão humana. Um livro para todos os públicos, O pequeno príncipe é uma obra atemporal, com metáforas pertinentes e aprendizados sobre afeto, sonhos, esperança e tudo aquilo que é invisível aos olhos. ",
@@ -129,19 +128,5 @@ const DATA = [
         Paginas: "192",
         Avaliacao: "4,8",
         imagem: require("../Img/piece.png"),
-    }
-]
-
-const DATA2 = [
-    [{
-        id: "01",
-        nome: "Coraline",
-        descricao: "Certas portas não devem ser abertas. E Coraline descobre isso pouco tempo depois de chegar com os pais à sua nova casa, um apartamento em um casarão antigo ocupado por vizinhos excêntricos e envolto por uma névoa insistente, um mundo de estranhezas e magia, o tipo de universo que apenas Neil Gaiman pode criar. Ao abrir uma porta misteriosa na sala de casa, a menina se depara com um lugar macabro e fascinante. Ali, naquele outro mundo, seus outros pais são criaturas muito pálidas, com botões negros no lugar dos olhos, sempre dispostos a lhe dar atenção, fazer suas comidas preferidas e mostrar os brinquedos mais divertidos. Coraline enfim se sente... em casa. Mas essa sensação logo desaparece, quando ela descobre que o lugar guarda mistérios e perigos, e a menina se dá conta de que voltar para sua verdadeira casa vai ser muito mais difícil ― e assustador ― do que imaginava.",
-        Preço: "47,50 Capa Dura",
-        Genero: "Fantasia e Horror",
-        Paginas: "224",
-        Avaliacao: "4,9",
-        imagem: require("../Img/coraline.png"),
-    }, "livro dois"],
-    [""]
+    }]
 ]
