@@ -131,3 +131,17 @@ const DATA = [
         imagem: require("../Img/piece.png"),
     }
 ]
+
+const DATA2 = [
+    [{
+        id: "01",
+        nome: "Coraline",
+        descricao: "Certas portas não devem ser abertas. E Coraline descobre isso pouco tempo depois de chegar com os pais à sua nova casa, um apartamento em um casarão antigo ocupado por vizinhos excêntricos e envolto por uma névoa insistente, um mundo de estranhezas e magia, o tipo de universo que apenas Neil Gaiman pode criar. Ao abrir uma porta misteriosa na sala de casa, a menina se depara com um lugar macabro e fascinante. Ali, naquele outro mundo, seus outros pais são criaturas muito pálidas, com botões negros no lugar dos olhos, sempre dispostos a lhe dar atenção, fazer suas comidas preferidas e mostrar os brinquedos mais divertidos. Coraline enfim se sente... em casa. Mas essa sensação logo desaparece, quando ela descobre que o lugar guarda mistérios e perigos, e a menina se dá conta de que voltar para sua verdadeira casa vai ser muito mais difícil ― e assustador ― do que imaginava.",
+        Preço: "47,50 Capa Dura",
+        Genero: "Fantasia e Horror",
+        Paginas: "224",
+        Avaliacao: "4,9",
+        imagem: require("../Img/coraline.png"),
+    }, "livro dois"],
+    [""]
+]
