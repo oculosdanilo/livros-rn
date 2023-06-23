@@ -130,3 +130,5 @@ const DATA = [
         imagem: require("../Img/piece.png"),
     }]
 ]
+
+export default DATA;
