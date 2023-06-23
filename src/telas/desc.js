@@ -1,4 +1,5 @@
 import { StyleSheet, View } from "react-native";
+import Header from "../components/header/index";
 
 export default function TelaDesc({navigation}) {
   return (

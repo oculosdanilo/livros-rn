@@ -1,9 +1,14 @@
-import { StyleSheet, View } from "react-native";
+import { StyleSheet, TouchableOpacity, View } from "react-native";
+import Header from "../components/header/index";
 
-export default function TelaHome({navigation}) {
+
+export default function TelaHome({ navigation }) {
   return (
     <View style={styles.container}>
       <Header navigation={navigation}></Header>
+      <TouchableOpacity onPress={() => navigation.navigate("Desc")}>
+        <>Sim!!</>
+      </TouchableOpacity>
     </View>
   );
 }

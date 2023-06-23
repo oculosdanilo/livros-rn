@@ -6,10 +6,10 @@ import styles from "./styles";
 export default function Header({navigation}) {
   return (
     <View style={styles.viewHeader}>
-      <View style={{flexDirection: "row", alignItems: "center"}}>
+      <TouchableOpacity style={{flexDirection: "row", alignItems: "center"}} onPress={() => navigation.navigate("Home")}>
         <Text style={styles.textHeader}> Livros </Text>
         <Image source={require("/assets/icon.png")} style={{width: 40, height: 40}}></Image>
-      </View>
+      </TouchableOpacity>
       <TouchableOpacity>
         <Feather name="shopping-cart" color="black" style={styles.iconHeader} />
       </TouchableOpacity>
