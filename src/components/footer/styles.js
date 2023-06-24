@@ -1,10 +1,10 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
-  viewHeader: {
+  viewFooter: {
     width: "100%",
     flexDirection: "row",
-    justifyContent: "space-between",
+    justifyContent: "center",
     alignItems: "center",
     paddingVertical: "20px",
     paddingLeft: "20px",
@@ -13,15 +13,11 @@ const styles = StyleSheet.create({
     borderTopWidth: "2px",
     borderTopColor: "#EDEDED",
   },
-  textHeader: {
+  textFooter: {
     fontSize: 30,
     color: "black",
-    fontWeight: "400"
-  },
-  iconHeader: {
-    fontSize: 32,
-    color: "black",
-    marginRight: "30px"
+    fontWeight: "400",
+    marginRight: 10,
   },
 });
 

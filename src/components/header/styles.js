@@ -7,19 +7,19 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
     paddingVertical: "30px",
-    paddingLeft: "20px",
+    paddingLeft: "25px",
     borderBottomWidth: "2px",
-    borderBottomColor: "#EDEDED"
+    borderBottomColor: "#EDEDED",
   },
   textHeader: {
     fontSize: 30,
     color: "black",
-    fontWeight: "400"
+    fontWeight: "400",
   },
   iconHeader: {
     fontSize: 32,
     color: "black",
-    marginRight: "30px"
+    marginRight: "30px",
   },
 });
 

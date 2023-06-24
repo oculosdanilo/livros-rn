@@ -1,26 +1,29 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
-  containerJogos: {
+  containerLivros: {
     paddingTop: 20,
     paddingBottom: 16,
-    paddingRight: 16,
-    width: 140,
+    width: 130,
   },
   titulo: {
-    color: "#fff",
-    fontSize: 12,
+    color: "#000",
+    fontSize: 16,
+    fontFamily: "Inter_600SemiBold",
     paddingTop: 8,
+    paddingBottom: 4,
+    textAlign: "center",
   },
-  textNota: {
-    fontSize: 10,
-    color: "#fff",
-    paddingLeft: 4,
+  textPreco: {
+    fontSize: 14,
+    color: "#444",
+    fontFamily: "Inter_400Regular",
+    textAlign: "center",
   },
   images: {
     width: "100%",
-    height: 170,
-    borderRadius: 8,
+    height: 180,
+    borderRadius: 30,
   },
 });
 
