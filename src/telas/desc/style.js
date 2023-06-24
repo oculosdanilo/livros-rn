@@ -21,6 +21,22 @@ const style = StyleSheet.create({
     fontSize: 15,
     textAlign: "center",
     fontFamily: "Inter_400Regular",
+    marginBottom: 20,
+  },
+  btnComprar: {
+    paddingVertical: 10,
+    backgroundColor: "#953A41",
+    width: "65%",
+    alignSelf: "center",
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: 15,
+    marginBottom: 30,
+  },
+  descContainer: {
+    marginVertical: 30,
+    marginHorizontal: 50,
   },
 });
 

@@ -3,6 +3,7 @@ import Footer from "../../components/footer";
 import Header from "../../components/header/index";
 import Livros from "../../data/index";
 import CardFilmes from "../../components/cardLivro";
+import Divider from "../../components/divider";
 
 export default function TelaHome({ navigation }) {
   return (
@@ -14,11 +15,7 @@ export default function TelaHome({ navigation }) {
           keyExtractor={(item) => [item[0].id, item[1].id]}
           vertical={true}
           style={{ height: "100%", padding: 0 }}
-          ItemSeparatorComponent={() => (
-            <View
-              style={{ width: "100%", height: 2, backgroundColor: "#EDEDED" }}
-            ></View>
-          )}
+          ItemSeparatorComponent={() => <Divider />}
           renderItem={({ item }) => (
             <View
               style={{
